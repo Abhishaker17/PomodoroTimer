@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A7AB1991BD9B5F700A4F7ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7AB1981BD9B5F700A4F7ED /* AppDelegate.swift */; };
+		9A7AB19B1BD9B5F700A4F7ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A7AB19A1BD9B5F700A4F7ED /* Assets.xcassets */; };
+		9A7AB19E1BD9B5F700A4F7ED /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A7AB19C1BD9B5F700A4F7ED /* MainMenu.xib */; };
+		9A7AB1A91BD9B5F700A4F7ED /* MultiKloppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7AB1A81BD9B5F700A4F7ED /* MultiKloppTests.swift */; };
+		9A7AB1B41BD9B5F700A4F7ED /* MultiKloppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7AB1B31BD9B5F700A4F7ED /* MultiKloppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A7AB1A51BD9B5F700A4F7ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A7AB18D1BD9B5F700A4F7ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A7AB1941BD9B5F700A4F7ED;
+			remoteInfo = MultiKlopp;
+		};
+		9A7AB1B01BD9B5F700A4F7ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A7AB18D1BD9B5F700A4F7ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A7AB1941BD9B5F700A4F7ED;
+			remoteInfo = MultiKlopp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A55C5B01C66C3B300E8D629 /* MultiKlopp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = MultiKlopp.entitlements; sourceTree = "<group>"; };
+		9A7AB1951BD9B5F700A4F7ED /* MultiKlopp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiKlopp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A7AB1981BD9B5F700A4F7ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A7AB19A1BD9B5F700A4F7ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A7AB19D1BD9B5F700A4F7ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9A7AB19F1BD9B5F700A4F7ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A7AB1A41BD9B5F700A4F7ED /* MultiKloppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiKloppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A7AB1A81BD9B5F700A4F7ED /* MultiKloppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiKloppTests.swift; sourceTree = "<group>"; };
+		9A7AB1AA1BD9B5F700A4F7ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A7AB1AF1BD9B5F700A4F7ED /* MultiKloppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiKloppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A7AB1B31BD9B5F700A4F7ED /* MultiKloppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiKloppUITests.swift; sourceTree = "<group>"; };
+		9A7AB1B51BD9B5F700A4F7ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A7AB1921BD9B5F700A4F7ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A7AB1A11BD9B5F700A4F7ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A7AB1AC1BD9B5F700A4F7ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A7AB18C1BD9B5F700A4F7ED = {
+			isa = PBXGroup;
+			children = (
+				9A7AB1971BD9B5F700A4F7ED /* MultiKlopp */,
+				9A7AB1A71BD9B5F700A4F7ED /* MultiKloppTests */,
+				9A7AB1B21BD9B5F700A4F7ED /* MultiKloppUITests */,
+				9A7AB1961BD9B5F700A4F7ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A7AB1961BD9B5F700A4F7ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A7AB1951BD9B5F700A4F7ED /* MultiKlopp.app */,
+				9A7AB1A41BD9B5F700A4F7ED /* MultiKloppTests.xctest */,
+				9A7AB1AF1BD9B5F700A4F7ED /* MultiKloppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A7AB1971BD9B5F700A4F7ED /* MultiKlopp */ = {
+			isa = PBXGroup;
+			children = (
+				9A55C5B01C66C3B300E8D629 /* MultiKlopp.entitlements */,
+				9A7AB1981BD9B5F700A4F7ED /* AppDelegate.swift */,
+				9A7AB19A1BD9B5F700A4F7ED /* Assets.xcassets */,
+				9A7AB19C1BD9B5F700A4F7ED /* MainMenu.xib */,
+				9A7AB19F1BD9B5F700A4F7ED /* Info.plist */,
+			);
+			path = MultiKlopp;
+			sourceTree = "<group>";
+		};
+		9A7AB1A71BD9B5F700A4F7ED /* MultiKloppTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A7AB1A81BD9B5F700A4F7ED /* MultiKloppTests.swift */,
+				9A7AB1AA1BD9B5F700A4F7ED /* Info.plist */,
+			);
+			path = MultiKloppTests;
+			sourceTree = "<group>";
+		};
+		9A7AB1B21BD9B5F700A4F7ED /* MultiKloppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A7AB1B31BD9B5F700A4F7ED /* MultiKloppUITests.swift */,
+				9A7AB1B51BD9B5F700A4F7ED /* Info.plist */,
+			);
+			path = MultiKloppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A7AB1941BD9B5F700A4F7ED /* MultiKlopp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A7AB1B81BD9B5F700A4F7ED /* Build configuration list for PBXNativeTarget "MultiKlopp" */;
+			buildPhases = (
+				9A7AB1911BD9B5F700A4F7ED /* Sources */,
+				9A7AB1921BD9B5F700A4F7ED /* Frameworks */,
+				9A7AB1931BD9B5F700A4F7ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiKlopp;
+			productName = MultiKlopp;
+			productReference = 9A7AB1951BD9B5F700A4F7ED /* MultiKlopp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A7AB1A31BD9B5F700A4F7ED /* MultiKloppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A7AB1BB1BD9B5F700A4F7ED /* Build configuration list for PBXNativeTarget "MultiKloppTests" */;
+			buildPhases = (
+				9A7AB1A01BD9B5F700A4F7ED /* Sources */,
+				9A7AB1A11BD9B5F700A4F7ED /* Frameworks */,
+				9A7AB1A21BD9B5F700A4F7ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A7AB1A61BD9B5F700A4F7ED /* PBXTargetDependency */,
+			);
+			name = MultiKloppTests;
+			productName = MultiKloppTests;
+			productReference = 9A7AB1A41BD9B5F700A4F7ED /* MultiKloppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A7AB1AE1BD9B5F700A4F7ED /* MultiKloppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A7AB1BE1BD9B5F700A4F7ED /* Build configuration list for PBXNativeTarget "MultiKloppUITests" */;
+			buildPhases = (
+				9A7AB1AB1BD9B5F700A4F7ED /* Sources */,
+				9A7AB1AC1BD9B5F700A4F7ED /* Frameworks */,
+				9A7AB1AD1BD9B5F700A4F7ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A7AB1B11BD9B5F700A4F7ED /* PBXTargetDependency */,
+			);
+			name = MultiKloppUITests;
+			productName = MultiKloppUITests;
+			productReference = 9A7AB1AF1BD9B5F700A4F7ED /* MultiKloppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A7AB18D1BD9B5F700A4F7ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Abhishek Banthia";
+				TargetAttributes = {
+					9A7AB1941BD9B5F700A4F7ED = {
+						CreatedOnToolsVersion = 7.0.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					9A7AB1A31BD9B5F700A4F7ED = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 9A7AB1941BD9B5F700A4F7ED;
+					};
+					9A7AB1AE1BD9B5F700A4F7ED = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 9A7AB1941BD9B5F700A4F7ED;
+					};
+				};
+			};
+			buildConfigurationList = 9A7AB1901BD9B5F700A4F7ED /* Build configuration list for PBXProject "MultiKlopp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A7AB18C1BD9B5F700A4F7ED;
+			productRefGroup = 9A7AB1961BD9B5F700A4F7ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A7AB1941BD9B5F700A4F7ED /* MultiKlopp */,
+				9A7AB1A31BD9B5F700A4F7ED /* MultiKloppTests */,
+				9A7AB1AE1BD9B5F700A4F7ED /* MultiKloppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A7AB1931BD9B5F700A4F7ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A7AB19B1BD9B5F700A4F7ED /* Assets.xcassets in Resources */,
+				9A7AB19E1BD9B5F700A4F7ED /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A7AB1A21BD9B5F700A4F7ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A7AB1AD1BD9B5F700A4F7ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A7AB1911BD9B5F700A4F7ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A7AB1991BD9B5F700A4F7ED /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A7AB1A01BD9B5F700A4F7ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A7AB1A91BD9B5F700A4F7ED /* MultiKloppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A7AB1AB1BD9B5F700A4F7ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A7AB1B41BD9B5F700A4F7ED /* MultiKloppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A7AB1A61BD9B5F700A4F7ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A7AB1941BD9B5F700A4F7ED /* MultiKlopp */;
+			targetProxy = 9A7AB1A51BD9B5F700A4F7ED /* PBXContainerItemProxy */;
+		};
+		9A7AB1B11BD9B5F700A4F7ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A7AB1941BD9B5F700A4F7ED /* MultiKlopp */;
+			targetProxy = 9A7AB1B01BD9B5F700A4F7ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A7AB19C1BD9B5F700A4F7ED /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A7AB19D1BD9B5F700A4F7ED /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A7AB1B61BD9B5F700A4F7ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A7AB1B71BD9B5F700A4F7ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9A7AB1B91BD9B5F700A4F7ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MultiKlopp/MultiKlopp.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MultiKlopp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Abhishek.MultiKlopp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A7AB1BA1BD9B5F700A4F7ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MultiKlopp/MultiKlopp.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MultiKlopp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Abhishek.MultiKlopp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A7AB1BC1BD9B5F700A4F7ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MultiKloppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Abhishek.MultiKloppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiKlopp.app/Contents/MacOS/MultiKlopp";
+			};
+			name = Debug;
+		};
+		9A7AB1BD1BD9B5F700A4F7ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MultiKloppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Abhishek.MultiKloppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiKlopp.app/Contents/MacOS/MultiKlopp";
+			};
+			name = Release;
+		};
+		9A7AB1BF1BD9B5F700A4F7ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MultiKloppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Abhishek.MultiKloppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MultiKlopp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9A7AB1C01BD9B5F700A4F7ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MultiKloppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Abhishek.MultiKloppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MultiKlopp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A7AB1901BD9B5F700A4F7ED /* Build configuration list for PBXProject "MultiKlopp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A7AB1B61BD9B5F700A4F7ED /* Debug */,
+				9A7AB1B71BD9B5F700A4F7ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A7AB1B81BD9B5F700A4F7ED /* Build configuration list for PBXNativeTarget "MultiKlopp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A7AB1B91BD9B5F700A4F7ED /* Debug */,
+				9A7AB1BA1BD9B5F700A4F7ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A7AB1BB1BD9B5F700A4F7ED /* Build configuration list for PBXNativeTarget "MultiKloppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A7AB1BC1BD9B5F700A4F7ED /* Debug */,
+				9A7AB1BD1BD9B5F700A4F7ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A7AB1BE1BD9B5F700A4F7ED /* Build configuration list for PBXNativeTarget "MultiKloppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A7AB1BF1BD9B5F700A4F7ED /* Debug */,
+				9A7AB1C01BD9B5F700A4F7ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A7AB18D1BD9B5F700A4F7ED /* Project object */;
+}
